@@ -19,3 +19,17 @@ pip install virtualenvwrapper-win
 ```
 virtualenv -p C:\Python\Python38 venv
 ```
+5. Instalar las dependencias.
+```
+venv\Scrips\pip install -r requirements.txt
+```
+6. Ejecutar.
+```
+venv\Scrips\python main.py --help
+```
+```
+venv\Scrips\python main.py elpais
+```
+```
+venv\Scrips\python main.py eluniversal
+```
